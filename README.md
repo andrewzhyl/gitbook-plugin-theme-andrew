@@ -8,11 +8,37 @@ The plugin can be used as a blank theme template for GitBook.
 Usage
 Add the theme to your book's configuration book.json:
 
-``` json
+``` 
 {
     "plugins": [
         "theme-andrew@https://github.com/andrewzhyl/gitbook-plugin-theme-andrew.git"
-    ]
+    ],
+    "pluginsConfig": {
+        "theme-andrew": {
+            "title": "Git Info book title",
+            "logo": "/assets/300-dpi-high-resolution-logo.png",
+            "favicon": "/assets/home.png",
+            "footer": {
+                "copyright-text": "©2017 Resereved for world",
+                "links": [{
+                    "title": "Home",
+                    "link": "/home"
+                }, {
+                    "title": "About",
+                    "link": "/about"
+                }]
+            },
+            "header": {
+                "links": [{
+                    "title": "Home",
+                    "link": "/home"
+                }, {
+                    "title": "About",
+                    "link": "/about"
+                }]
+            }
+        }
+    }
 },
 ```
 
