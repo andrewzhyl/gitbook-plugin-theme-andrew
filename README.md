@@ -11,7 +11,7 @@ Add the theme to your book's configuration book.json:
 ``` json
 {
     "plugins": [
-        "theme-interbit@https://github.com/andrewzhyl/gitbook-plugin-theme-andrew.git"
+        "theme-andrew@https://github.com/andrewzhyl/gitbook-plugin-theme-andrew.git"
     ]
 },
 ```

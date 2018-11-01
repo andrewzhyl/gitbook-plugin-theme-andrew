@@ -30,8 +30,8 @@
 <div class="navbar-outer">
     <div class="navbar">
         <a href="{{ "/"|resolveFile }}" class="logo">
-            {% if config.pluginsConfig["theme-sectionfy"].logo %}
-                <img src="{{ config.pluginsConfig["theme-sectionfy"].logo }}">
+            {% if config.pluginsConfig["theme-andrew"].logo %}
+                <img src="{{ config.pluginsConfig["theme-andrew"].logo }}">
             {% else %}
                 <img src="{{ "images/logo.png"|resolveAsset }}">
             {% endif %}
@@ -42,7 +42,7 @@
         </div>
         <div class="header-menu-outer">
             <ul class="header-menu">
-                {% for link in config.pluginsConfig["theme-sectionfy"].header["links"] %}
+                {% for link in config.pluginsConfig["theme-andrew"].header["links"] %}
                     <li>
                         <a href="{{link.link}}">{{link.title}}</a>
                     </li>
@@ -109,13 +109,13 @@
 </div>
 <div class="footer">
     <div class="footer-inner">
-        {% if config.pluginsConfig["theme-sectionfy"].footer["copyright-text"] %}
+        {% if config.pluginsConfig["theme-andrew"].footer["copyright-text"] %}
             <div class="copyright-text">
-                {{config.pluginsConfig["theme-sectionfy"].footer["copyright-text"]}}
+                {{config.pluginsConfig["theme-andrew"].footer["copyright-text"]}}
             </div>
         {% endif %}
         <ul>
-            {% for link in config.pluginsConfig["theme-sectionfy"].footer["links"] %}
+            {% for link in config.pluginsConfig["theme-andrew"].footer["links"] %}
             <li>
                 <a href="{{link.link}}">{{link.title}}</a>
             </li>

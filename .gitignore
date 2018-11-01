@@ -28,3 +28,6 @@ node_modules
 *.swp
 
 _assets
+
+node_modules
+package-lock.json
