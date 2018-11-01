@@ -2804,7 +2804,7 @@ table {
 .book-summary {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: absolute;
-  top: 0px;
+  top: 30px;
   left: -300px;
   bottom: 0px;
   z-index: 1;
@@ -2929,7 +2929,7 @@ table {
 }
 .book-body {
   position: absolute;
-  top: 0px;
+  top: 30px;
   right: 0px;
   left: 0px;
   bottom: 0px;
@@ -3617,7 +3617,7 @@ body.with-search .navigation {
   height: 100%;
 }
 .navbar-outer .navbar .logo img {
-  width: 300px;
+  height: 48px;
   margin-top: 6px;
   margin-left: 10px;
 }
@@ -3644,35 +3644,12 @@ body.with-search .navigation {
   float: right;
   margin-top: 16px;
   margin-right: 16px;
+  border: 0px;
 }
-.footer {
-  height: 120px;
-  background: #333333;
-  color: #cdcdcd;
-  padding: 30px 0px;
-}
-.footer .footer-inner {
-  width: 100%;
-}
-.footer .footer-inner .copyright-text {
-  margin-left: 10px;
-  display: inline;
-}
-.footer .footer-inner ul {
-  list-style: none;
-  float: right;
-  margin: 0;
-}
-.footer .footer-inner ul li {
-  margin-left: 25px;
-  margin-right: 16px;
-  display: inline;
-}
-.footer .footer-inner ul li a {
-  color: #cdcdcd;
-}
-.footer .footer-inner ul li a:hover {
-  text-decoration: underline;
+.navbar-outer .navbar .navbar-search-block #book-search-input input,
+.navbar-outer .navbar .navbar-search-block #book-search-input input:focus,
+.navbar-outer .navbar .navbar-search-block #book-search-input input:hover {
+  border: 1px solid rgba(0, 0, 0, 0.07);
 }
 * {
   -webkit-box-sizing: border-box;
