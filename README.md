@@ -18,16 +18,6 @@ Add the theme to your book's configuration book.json:
             "title": "Git Info book title",
             "logo": "/assets/300-dpi-high-resolution-logo.png",
             "favicon": "/assets/home.png",
-            "footer": {
-                "copyright-text": "©2017 Resereved for world",
-                "links": [{
-                    "title": "Home",
-                    "link": "/home"
-                }, {
-                    "title": "About",
-                    "link": "/about"
-                }]
-            },
             "header": {
                 "links": [{
                     "title": "Home",
