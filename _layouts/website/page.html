@@ -107,20 +107,4 @@
         });
     </script>
 </div>
-<div class="footer">
-    <div class="footer-inner">
-        {% if config.pluginsConfig["theme-andrew"].footer["copyright-text"] %}
-            <div class="copyright-text">
-                {{config.pluginsConfig["theme-andrew"].footer["copyright-text"]}}
-            </div>
-        {% endif %}
-        <ul>
-            {% for link in config.pluginsConfig["theme-andrew"].footer["links"] %}
-            <li>
-                <a href="{{link.link}}">{{link.title}}</a>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
-</div>
 {% endblock %}
