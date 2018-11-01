@@ -26,8 +26,5 @@ node_modules
 
 # vim swapfile
 *.swp
-
-_assets
-
 node_modules
 package-lock.json
