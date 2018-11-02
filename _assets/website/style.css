@@ -2804,7 +2804,7 @@ table {
 .book-summary {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: absolute;
-  top: 30px;
+  top: 0px;
   left: -300px;
   bottom: 0px;
   z-index: 1;
@@ -2929,7 +2929,7 @@ table {
 }
 .book-body {
   position: absolute;
-  top: 30px;
+  top: 0px;
   right: 0px;
   left: 0px;
   bottom: 0px;
@@ -3649,6 +3649,10 @@ body.with-search .navigation {
 .navbar-outer .navbar .navbar-search-block #book-search-input input:focus,
 .navbar-outer .navbar .navbar-search-block #book-search-input input:hover {
   border: 1px solid rgba(0, 0, 0, 0.07);
+}
+.book-summary,
+.book-body {
+  margin-top: 70px;
 }
 #book-search-input {
   border: 0px;
